@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Digital Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Teko">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-spy="scroll" data-target="#main-nav">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-1 col-md-3 col-lg-2">
+                <div class="d-inline-block d-md-none text-center text-uppercase">
+                    <button class="navbar-toggler" type="button" data-target="#main-nav" aria-controls="main-nav-list" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="img/menu-icon.svg" alt="Menu">
+                    </button>
+                    <small>Menu</small>
+                </div>
+
+                <div id="main-nav" class="px-3">
+                    <button class="close d-inline-block d-md-none text-center text-uppercase" type="button" data-target="#main-nav" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        <span><small>Close</small></span>
+                    </button>
+                    <ul id="main-nav-list" class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home"><span>Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio"><span>Portfolio</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="col-10 col-md-8 col-lg-10">
+                <header id="home" class="row py-5">
+                    <div class="col-sm-11">
+                        <div class="row justify-content-center">
+                            <div class="col-10 col-sm-8 col-md-7 col-lg-5 py-5">
+                                <img class="img-fluid scale" src="img/main-header.svg?ver=1.0" alt="Udacity Web Development">
+                            </div>
+                        </div>
+                        <div class="text-center pb-5">
+                            <h1 class="text-uppercase display-1">Digital portfolio</h1>
+                            <a class="section-link" href="#portfolio">
+                                <img class="scale" src="img/section-link.svg" alt="next">
+                                <p class="text-uppercase"><small>Portfolio</small></p>
+                            </a>
+                        </div>
+                    </div>
+                </header>
+
+                <section id="portfolio" class="py-5">
+                    <h1 class="heading-1 text-uppercase display-2 pl-4 mb-4"><span></span> Featured Work</h1>
+
+                    <article class="row pb-5">
+                        <div class="col-lg-5">
+                            <div class="bordered-frame">
+                                <span class="frame-top"></span>
+                                <div class="bordered-frame-inner">
+                                    <img class="img-fluid scale" src="img/portafolio-placeholder-1.jpeg" alt="Portfolio piece one">
+                                </div>
+                                <span class="frame-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="display-4 heading-2 pl-3">Portfolio Piece One</h2>
+                            <p>Blog developed for a very important firm, it was built with Wordpress (CMS - Content Management System), features a theme developed exclusively for this company and also includes all aspects associated with Wordpress like categories, articles, comments, among others.</p>
+                            <ul class="listing-1">
+                                <li>CMS - Wordpress</li>
+                                <li>Content rotator</li>
+                                <li>Image gallery for articles</li>
+                                <li>Fluid design</li>
+                                <li>HTML5, CSS3, Javascript, PHP</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="row pb-5">
+                        <div class="col-lg-5 order-lg-2">
+                            <div class="bordered-frame">
+                                <span class="frame-top"></span>
+                                <div class="bordered-frame-inner">
+                                    <img class="img-fluid scale" src="img/portafolio-placeholder-2.jpeg" alt="Portfolio piece two">
+                                </div>
+                                <span class="frame-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="display-4 heading-2 pl-3">Portfolio Piece Two</h2>
+                            <p>Website developed for an audiovisual production firm, features different sections and also a video portafolio.</p>
+                            <ul class="listing-1">
+                                <li>Video portafolio gallery</li>
+                                <li>Fluid design</li>
+                                <li>HTML5, CSS3, Javascript, PHP</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="row pb-5">
+                        <div class="col-lg-5">
+                            <div class="bordered-frame">
+                                <span class="frame-top"></span>
+                                <div class="bordered-frame-inner">
+                                    <img class="img-fluid scale" src="img/portafolio-placeholder-3.jpeg" alt="Portfolio piece three">
+                                </div>
+                                <span class="frame-bottom"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="display-4 heading-2 pl-3">Portfolio Piece Three</h2>
+                            <p>Website developed for an audiobranding company, features a latest portfolio item rotator, a product portfolio in which different audios are integrated.</p>
+                            <ul class="listing-1">
+                                <li>Content rotator</li>
+                                <li>Audio implementation</li>
+                                <li>Product portfolio</li>
+                                <li>Fluid design</li>
+                                <li>HTML5, CSS3, Javascript, PHP</li>
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div><!-- end .row -->
+    </div><!-- end .container-fluid-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
